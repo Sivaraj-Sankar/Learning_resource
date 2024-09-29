@@ -1,0 +1,62 @@
+Locally Implement Provider 
+--------------------------
+1. Ollama
+2. GPT4All - Supports fine-tuning and training custom models
+3. Hugging Face Transformers - Can be installed locally using libraries like transformers and datasets
+                             - Includes tools for model fine-tuning, inference, and deployment
+4. PrivateGPT - Works with the GPT-4 and GPT-NeoX
+5. Llama.cpp - Llama.cpp is a C++ implementation of Meta's LLaMA models
+6. Alpaca-Lora - A low-resource fine-tuning and inference platform for LLaMA models
+   low-rank adaptation (LoRA) technique for fine-tuning large models
+   Focuses on reducing memory and computation requirements
+7. Open Assistant - An open-source project aimed at developing large language models that are accessible, customizable, and can be deployed locally.
+8. Stanford Alpaca - open-source initiative by Stanford University that fine-tunes language models for lightweight
+                     Fine-tuning capabilities for specific use cases
+9. LangChain (with local storage) - Modular framework for connecting LLMs to local datasets
+
+
+Fine Tuning LLM 
+---------------
+1. Instruct-tuned model - is a variant of a large language model (LLM) that has been specifically fine-tuned to follow human instructions or prompts in a more controlled, 
+predictable, and accurate manner
+Fine-tuned on datasets that contain a wide variety of instruction-prompt-response pairs
+2. Reinforcement learning from human feedback (RLHF) - In some cases, instruct-tuning involves fine-tuning with human feedback loops
+   - This method uses human annotators to rate model outputs and give feedback, helping the model learn how to generate more helpful and relevant responses.
+
+Instruction Models 
+------------------
+GPT-3 Instruct Model 
+LLaMA-Instruct - Meta’s LLaMA model has variants that are instruct-tuned for specific tasks like following commands or queries, making them more task-oriented
+Alpaca - Stanford's Alpaca model is based on Meta’s LLaMA and fine-tuned to follow instructions better using self-generated datasets
+GPT-4 Instruct
+Codex (Instruct)
+LLaMA-Instruct
+LLaMA 2 Chat
+Alpaca - instruction-following data, created by Stanford University
+Vicuna - Another LLaMA-based instruct-tuned model, fine-tuned with user-shared dialogues for more conversational and instruct-following tasks
+Claude-Instruct
+Claude 2: An upgrade to Claude with improvements in instruction following, especially for professional applications
+Gemini-Instruct (expected)
+PaLM 2 Chat: Google's PaLM (Pathways Language Model) 2 has instruct-tuned versions like PaLM 2 Chat, designed to follow human instructions in a conversational setting
+Mistral Instruct
+EleutherAI
+GPT-NeoX Instruct: A fine-tuned version of GPT-NeoX optimized for following user instructions in various natural language tasks
+Pythia-Instruct: Another EleutherAI model, designed to better align with task-specific instructions
+MosaicML
+MPT-Instruct: MosaicML’s MPT (Mosaic Pretrained Transformer) models include instruct-tuned variants for better alignment with task-specific prompts.
+MPT-30B Chat: An instruction-tuned variant for interactive use cases like dialogue systems
+TII (Technology Innovation Institute)
+Falcon Instruct: TII's Falcon model has an instruct-tuned variant, optimized for following prompts and delivering more controlled responses.
+Groq Instruct Models: While Groq focuses on hardware acceleration, they are developing LLMs that are optimized for fast inference. These models also incorporate instruct-tuning for task-oriented responses. Specific model names may not be public yet, but instruct-tuned models are part of their AI offerings
+IBM 
+Project Debater Instruct: An instruct-tuned AI model focused on generating structured, debate-like responses and reasoning based on input prompts.
+Cohere 
+Command R (Instruct)
+Command X
+
+LLM Model Size 
+--------------
+
+LLM OpenSource Sites
+--------------------
+https://falconllm.tii.ae/
