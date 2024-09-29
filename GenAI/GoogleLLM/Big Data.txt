@@ -1,0 +1,100 @@
+Volumne
+ 
+
+
+Analytics
+
+
+Volume
+Varitey
+Velocity
+Veracity - Quality/Uncertainty
+Variability
+
+Batch Processing 
+Hadoop, Spark, Hive
+
+Real-Time Processing
+Kafa, Storm, Spark
+
+BigData Can also be used in Predictive Applications - Spark, Azure ML, Data Bricks
+
+
+Hadoop(Apache)
+Open Source Distributed Processing
+Designed to scale up from single to thousands of servers in parallel
+Uses Hadoop Distributed File System (HDFS)
+MapReduce as data processing function - Computing Part 
+JOb Tracker
+Job Tracker is the part of the map reduce layer assigns various tasks to specific nodes within the cluster
+Query is assigned to the job tracker to the various nodes Where the data resides 
+It Also tracks the tasks assigned using task tracker
+
+YARN - Resource Management - Yet Another Negotiator
+       To Manage the Resource within the cluster
+Hive Query 
+     
+HDFS Layer - Have Name Node and Data Node within the master
+Name Node is the Directory of all the other data nodes within the cluster 
+
+It keeps track of all the data that has been stored across thousands of computers on this hadoop cluster. It knows which of block of the data stored on Which computer 
+
+Zeppelin     Ambari Views    DSX
+
+Batch             Script   SQL           NoSQL               Stream     Search     In-Mem
+ Map Reduce          Pig    Hive Druid      HBase Accumulo     Storm      Solr      Spark
+
+From Hadoop to DataBricks
+  Apache Spark  - Unified Analytics Engine for Large-Scale data Processing
+      Data Processing and Machine Learning in One Place
+      In-Memory Distributed Cluster Computing 
+   
+     Master Node
+       Driver Program - Application we write is the driver program
+           SparkContext - Connection - so on for the cluster
+                It will connect with Cluster Manager to allocate the resources for the applications
+ 
+    Cache - Load in the Memory *
+
+    MLLib Used for Machine Learning Tasks from the Spark
+    
+  Spark is not friendly, When we need to deploy Spark on cloud
+
+
+  DataBricks    -  
+         Efficient Working with Spark
+         Provides workspace to manage Spark and its infrastructure 
+         Provides Workspace similar to Azure ML Workspace, like Spark Cluster, Data Required, Notebooks, Libraries and almost everything that's required to manage Spark
+
+
+Data Bricks - Architecture 
+
+   Workspace at tthe Top , Wrapper
+      Notebooks, libraries, Experiments
+   Databricks Run Time
+     Delta Lake   Spark Apache    Tensorflow  Azure ML mlflow
+   Cloud Services
+     Azure AWS  
+   
+      
+HandsOn
+    Create an Azure DataBricks Workspace
+    Create an Azure DataBricks Cluster
+    Create and Run Notebooks in Azure DataBricks
+    Link and Azure DataBricks Workspace to an Azure ML 
+    Configure Attached Compute Resources including Azure DataBricks
+    Run a training Script on Azure DataBricks Compute
+    Use MLflow to Track Experiments
+    Track Experiments running in Azure DataBricks
+    Deploy a Model Trained in Azure DataBricks to an Azure ML Learning Endpoint
+   
+    Run the Experiment from the DataBricks
+
+
+
+DataBricks Pipeline
+
+1) Accept PipelineData as input Parameter
+2) Save the Output Through PipelineData
+
+Azure ML Class Called - DataBricksStep - To process the Data in the Azure Data Bricks   
