@@ -1,0 +1,35 @@
+1) sin(1/x) --> x --> 0 , it will oscillate b/w -1 to 1 --> will not stay in the single value --> So it's leads to undefined limit 
+2) sin(theta) --> opposite/hypotenuse
+3) sin(theta) represents the y-coordinate of the points 
+4) sin(theta + 2npi) --> for any integer n = sin(theta)
+5) The derivative of sin(x) is cos(x) and  its integral is −cos(x) + C (a constant)
+
+
+Continuous Function Example 
+1) Constant Function
+2) Power Function 
+3) Polynomial Function
+4) Quotients of Polynomial namely rational functions
+5) Circular Functions of sin (x) and cos (x) every point in their domain 
+6) tan x, cot x, cosec x, sec x are continuous on their proper domains in view of
+the reciprocal and quotient rules in the algebra of limits.
+7) nth root functions
+8) Reciprocal function is not defined at 0 hence it is not continuous 
+9) Greatest Integer function is not continuous at x = 0. It is Discontinuous at each integer point 
+10)Modulus Function is continuous at all points of the Real Number R
+11)Exponential Function is continuous at all points 
+12)Log Function is continuous at all x > 0 (0,infinity)
+
+Algebra of continuous functions
+1) f + g is continuous at x = x0
+2) f - g is continuous at x = x0
+3) f.g is continuous at x = x0
+4) f/g is continuous at x = x0 (g(x) not equal to 0)
+5) Composite function theorem on continuity 
+    If f is continuous at g(x0) and g is continuous at x0 then fog is continuous at x0
+
+Closed Interval Continuous Function
+1) A function is said to be continuous on the closed interval [a,b] if it is continuous on the open interval (a,b) and 
+1) If the function f is continuous from the right at a and continuous from the left at b and it continuous at each point x0 belongs to (a,b)
+
+.
